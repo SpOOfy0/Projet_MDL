@@ -6,7 +6,7 @@ app.use(express.static('public'));
         
 app.use('/jquery', express.static(__dirname + '/node_modules/jquery/dist/'));
 
-//lance l'ecoute
+//start listening
 app.listen(port, () => {
     console.log(`App listening on port ${port}`)
 }) 
